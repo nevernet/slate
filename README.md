@@ -32,6 +32,19 @@ Getting started with Slate is super easy! Simply fork this repository and follow
 Getting Started with Slate
 ------------------------------
 
+### 中文版安装步骤
+
+- 安装ruby
+- `gem install bundle` 如果已经存在gem，则执行 `gem updte --system` 升级
+- `bundle install`
+
+### 中文版操作步骤
+
+- 修改source目录里面的md文件
+- 执行 `bundle exec middleman build --clean` 会生成build目录
+- 执行 `cd build && ./rsync.sh` 同步到开发服务器
+
+
 ### Prerequisites
 
 You're going to need:
