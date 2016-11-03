@@ -35,7 +35,9 @@ Getting Started with Slate
 ### 中文版安装步骤
 
 - 安装ruby
-- `gem install bundle` 如果已经存在gem，则执行 `gem updte --system` 升级
+- 如果已经存在gem，则执行 `gem updte --system` 升级
+- `gem install bundle`
+- `gem install rake`
 - `bundle install`
 
 ### 中文版操作步骤
