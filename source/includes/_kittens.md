@@ -1,6 +1,6 @@
 # Kittens
 
-## 获取所有 X
+## GetKitten
 
 ```json
 [

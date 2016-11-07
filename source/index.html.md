@@ -15,6 +15,7 @@ toc_footers:
 
 includes:
   - errors
+  - struct
   - kittens
   - user
 
