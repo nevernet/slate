@@ -13,8 +13,7 @@ toc_footers:
   - <a href='#'></a>
 
 includes:
-  - to be replaced
-
+{{includes}}
 
 search: true
 ---
