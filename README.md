@@ -1,3 +1,22 @@
+中文版
+---------
+
+> 配合工具：http://git.oschina.net/nevernet/api-generator 一起使用
+
+### 中文版安装步骤
+
+- 安装ruby
+- 如果已经存在gem，则执行 `gem update --system` 升级
+- `gem install bundle`
+- `gem install rake`
+- `bundle install`
+
+### 中文版操作步骤
+
+- 修改source目录里面的md文件
+- 执行 `bundle exec middleman build --clean` 会生成build目录
+- 执行 `cd build && ./rsync.sh` 同步到开发服务器 （非必须）
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/lord/img/master/logo-slate.png" alt="Slate: API Documentation Generator" width="226">
   <br>
@@ -31,21 +50,6 @@ Getting started with Slate is super easy! Simply fork this repository and follow
 
 Getting Started with Slate
 ------------------------------
-
-### 中文版安装步骤
-
-- 安装ruby
-- 如果已经存在gem，则执行 `gem update --system` 升级
-- `gem install bundle`
-- `gem install rake`
-- `bundle install`
-
-### 中文版操作步骤
-
-- 修改source目录里面的md文件
-- 执行 `bundle exec middleman build --clean` 会生成build目录
-- 执行 `cd build && ./rsync.sh` 同步到开发服务器
-
 
 ### Prerequisites
 
