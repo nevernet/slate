@@ -1,9 +1,9 @@
 ruby '>=2.3.1'
-#source 'https://rubygems.org'
-source 'https://gems.ruby-china.com'
+source 'https://rubygems.org'
+# source 'https://gems.ruby-china.com'
 
 # Middleman
-gem 'middleman', '~>4.2.1'
+gem 'middleman', '~>4.3.0'
 gem 'middleman-syntax', '~> 3.0.0'
 gem 'middleman-autoprefixer', '~> 2.7.0'
 gem 'middleman-sprockets', '~> 4.1.0'
