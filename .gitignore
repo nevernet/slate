@@ -26,3 +26,5 @@ doc/
 
 source/index.html.md
 source/includes/*.md
+
+vendor/bundle

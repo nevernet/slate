@@ -8,10 +8,11 @@
 
 ```
 
+mkdir -p vendor/bundle
 gem update --system
 gem install bundle
 gem install rake
-bundle install
+bundle install --path vendor/bundle
 
 ```
 
